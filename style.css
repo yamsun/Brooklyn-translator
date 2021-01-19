@@ -33,15 +33,15 @@ nav span {
     text-shadow: 3rem;
     background-color:#ffffff;
     color: rgba(0, 0, 0, 6);
-    opacity: 0.6;
+    /* opacity: 0.6; */
     border-bottom-left-radius: 1rem ;
     /* border-bottom-right-radius: 1rem; */
     
 }
 
-nav span:hover {
+/* nav span:hover {
     opacity: 0.9;
-}
+} */
 main {
     margin: auto;
     padding: 1rem;
@@ -59,12 +59,12 @@ textarea {
     background-color: #ffffff;
     border: 1px solid black;
     border-radius: 0.5rem;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 
-textarea:hover {
+/* textarea:hover {
     opacity: 0.9;
-}
+} */
 
 button {
     background-color: #ffffff;
@@ -72,9 +72,9 @@ button {
     border-width: 0.1rem;
     border-color: black;
     margin: 2rem 0rem;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     font-family: 'Kalam', cursive;
-    font-size: large;
+    font-size:1.5rem;
     opacity: 0.9;
     margin-left: 13rem;
    
@@ -82,11 +82,11 @@ button {
 
 }
 
-button:hover {
+/* button:hover {
     opacity: 1;
     font-weight: bolder;
     
-}
+} */
 
 #output{
     box-sizing: border-box;
@@ -96,11 +96,11 @@ button:hover {
     overflow:scroll;
     border: 1px solid var(--black);
     background-color: #ffffff;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
-#output:hover{
+/* #output:hover{
     opacity: 0.9;
-}
+} */
 footer {
     position: -webkit-sticky;
     margin-top: 6.9rem;
@@ -110,21 +110,24 @@ footer {
     width: 100%;
     padding: 1rem;
     background-color: #ffffff;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     text-align: center;
 
 }
-footer:hover {
+/* footer:hover {
     opacity: 0.9;
-}
+} */
 
 footer p {
     max-width: var(--width-break);
     margin: auto;
 }
 
-/* body :hover{
-    opacity: 0.9;
-} */
+.optacity-class{
+    opacity: 0.7;
+}
 
-/* #out */
+.optacity-class:hover {
+    opacity: 0.9;
+}
+
