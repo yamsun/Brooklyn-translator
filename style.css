@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break:600px;
+}
+img{
+    margin-top: -2.8rem;
+}
+body{
+    background-image: url(https://s27363.pcdn.co/wp-content/uploads/2020/05/One-Day-in-Brooklyn.jpg.optimal.jpg);
+    margin: 0;
+    font-family: 'Kalam',cursive;
+    color: #333333;
+}
+
+nav {
+    /* position:-webkit-sticky;
+    position:sticky;
+    top: 0; */
+    /* background-image: url("https://s27363.pcdn.co/wp-content/uploads/2020/05/One-Day-in-Brooklyn.jpg.optimal.jpg"); */
+    text-align: center;
+}
+
+nav span {
+    font-size: 4rem;
+    padding: 1rem;
+    font-weight: 100;
+    text-shadow: 3rem;
+    background-color:#ffffff;
+    color: rgba(0, 0, 0, 6);
+    opacity: 0.6;
+    border-bottom-left-radius: 1rem ;
+    /* border-bottom-right-radius: 1rem; */
+    
+}
+
+nav span:hover {
+    opacity: 0.9;
+}
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 12vh;
+    margin-top: 4rem;
+    font-size: large;
+    font-family: inherit;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    opacity: 0.7;
+}
+
+textarea:hover {
+    opacity: 0.9;
+}
+
+button {
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: black;
+    margin: 2rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    opacity: 0.9;
+    margin-left: 13rem;
+   
+
+
+}
+
+button:hover {
+    opacity: 1;
+    font-weight: bolder;
+    
+}
+
+#output{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 12vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid var(--black);
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+#output:hover{
+    opacity: 0.9;
+}
+footer {
+    position: -webkit-sticky;
+    margin-top: 6.9rem;
+    position: sticky;
+    /* position: fixed; */
+    bottom:0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #ffffff;
+    opacity: 0.7;
+    text-align: center;
+
+}
+footer:hover {
+    opacity: 0.9;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+/* body :hover{
+    opacity: 0.9;
+} */
+
+/* #out */
