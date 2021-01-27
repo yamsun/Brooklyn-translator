@@ -58,7 +58,10 @@ textarea {
     font-family: inherit;
     background-color: #ffffff;
     border: 1px solid black;
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 1rem;
     /* opacity: 0.7; */
 }
 
@@ -96,6 +99,9 @@ button {
     overflow:scroll;
     border: 1px solid var(--black);
     background-color: #ffffff;
+    border-top-left-radius: 3rem ;
+    border-bottom-right-radius: 3rem;
+    padding: 1rem;
     /* opacity: 0.7; */
 }
 /* #output:hover{
