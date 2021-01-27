@@ -99,8 +99,8 @@ button {
     overflow:scroll;
     border: 1px solid var(--black);
     background-color: #ffffff;
-    border-top-left-radius: 3rem ;
-    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 2rem ;
+    border-bottom-right-radius: 2rem;
     padding: 1rem;
     /* opacity: 0.7; */
 }
